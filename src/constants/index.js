@@ -1,16 +1,13 @@
 export const myProjects = [
   {
     id: 1,
-    title: "E-commerce Platform",
+    title: "College Job Portal",
     description:
-      "Facilitates purchases from international websites like Amazon and eBay, allowing customers to shop from these sites and have products delivered domestically.",
+      "A platform for college students to find job opportunities, internships, and connect with potential employers.",
     subDescription: [
-      "Built a scalable application with ASP.NET Core MVC, integrating global platforms like Amazon for domestic delivery.",
-      "Implemented secure authentication and database management using ASP.NET Core Identity and Entity Framework Core.",
-      "Designed a responsive frontend with Tailwind CSS, enhancing user experience.",
-      "Added payment systems, localization, and product filtering for functionality improvements.",
+      "Job Portal is a full-stack web application that allows companies to post job listings and candidates to apply for them. It features user authentication via Clerk, image and resume uploads using Cloudinary, and stores data in MongoDB. Deployed using Vercel for production scalability.",  
     ],
-    href: "",
+    href: "job-portal-full-stack-client-olive.vercel.app",
     logo: "",
     image: "/assets/projects/accessories.jpg",
     tags: [
