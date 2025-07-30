@@ -1,5 +1,3 @@
-import { p } from "framer-motion/client";
-
 export const myProjects = [
   {
     id: 1,
@@ -7,9 +5,9 @@ export const myProjects = [
     description:
       "A platform for college students to find job opportunities, internships, and connect with potential employers.",
     subDescription: [
-      "Job Portal is a full-stack web application that allows companies to post job listings and candidates to apply for them. It features user authentication via Clerk, image and resume uploads using Cloudinary, and stores data in MongoDB. Deployed using Vercel for production scalability.",  
+      "Job Portal is a full-stack web application that allows companies to post job listings and candidates to apply for them. It features user authentication via Clerk, image and resume uploads using Cloudinary, and stores data in MongoDB. Deployed using Vercel for production scalability.",
     ],
-    href: "job-portal-full-stack-client-olive.vercel.app",
+    href: "https://job-portal-full-stack-client-olive.vercel.app",
     logo: "",
     image: "/assets/projects/accessories.jpg",
     tags: [
@@ -21,7 +19,7 @@ export const myProjects = [
       {
         id: 2,
         name: "Node.js",
-        path: "/assets/logos/dotnet.svg",
+        path: "/assets/logos/node.svg",
       },
       {
         id: 3,
@@ -47,7 +45,7 @@ export const myProjects = [
         id: 7,
         name: "Framer Motion",
         path: "/assets/logos/framer-motion.svg",
-      }
+      },
     ],
   },
   {
@@ -58,7 +56,7 @@ export const myProjects = [
     subDescription: [
       "A full-stack real-time messaging app where users can send and receive messages instantly without reloading the page. Implemented using Socket.IO for bi-directional communication between client and server. Includes user-friendly chat interface and is accessible online via deployment. Tech Stack: React.js, Node.js, Express.js, MongoDB, Socket.IO.",
     ],
-    href: "",
+    href: "https://chat-app-1-beta.vercel.app",
     logo: "",
     image: "/assets/projects/auth-system.jpg",
     tags: [
@@ -81,11 +79,13 @@ export const myProjects = [
         id: 4,
         name: "TailwindCSS",
         path: "/assets/logos/tailwindcss.svg",
-      },{
+      },
+      {
         id: 5,
         name: "Socket.IO",
         path: "/assets/logos/socketio.svg",
-      },{
+      },
+      {
         id: 6,
         name: "Express.js",
         path: "/assets/logos/express.svg",
@@ -94,19 +94,17 @@ export const myProjects = [
         id: 7,
         name: "Framer Motion",
         path: "/assets/logos/framer-motion.svg",
-      }
+      },
     ],
   },
   {
     id: 3,
     title: "LMS Study Website (Edemy)",
-    description:
-      "A Full Stack Learning Management System and e-Learning platform.",
+    description: "A Full Stack Learning Management System and e-Learning platform.",
     subDescription: [
-      "A full-stack web application that connects job seekers with recruiters. Job seekers can search and apply for job listings, manage profiles, and upload resumes. Recruiters can post job openings, manage job posts, view applicant details, and accept/reject applications. Includes real-time performance monitoring and error tracking for better reliability.
-
+      "A full-stack web application that connects job seekers with recruiters. Job seekers can search and apply for job listings, manage profiles, and upload resumes. Recruiters can post job openings, manage job posts, view applicant details, and accept/reject applications. Includes real-time performance monitoring and error tracking for better reliability.",
     ],
-    href: "",
+    href: "https://lms-full-stack-alpha-rose.vercel.app/",
     logo: "",
     image: "/assets/projects/blazor-app.jpg",
     tags: [
@@ -129,147 +127,141 @@ export const myProjects = [
         id: 4,
         name: "TailwindCSS",
         path: "/assets/logos/tailwindcss.svg",
-      },{
+      },
+      {
         id: 5,
-        name:"Express.js",
+        name: "Express.js",
         path: "/assets/logos/express.svg",
-      },{
+      },
+      {
         id: 6,
-        name:"Clerk",
+        name: "Clerk",
         path: "/assets/logos/clerk.svg",
-      }
+      },
     ],
   },
   {
-  id: 4,
-  title: "Gemini Clone",
-  description:
-    "A Gemini-powered AI web app that uses the Gemini API to fetch and display intelligent responses, built with React and styled using Tailwind CSS.",
-  subDescription: [
-    "Integrated Gemini API to fetch AI-generated responses and handle user prompts.",
-    "Built a clean and responsive UI using React components and Tailwind CSS.",
-    "Implemented real-time input handling and smooth output rendering.",
-    "Designed for extensibility with support for multiple conversation threads.",
-  ],
-  href: "",
-  logo: "",
-  image: "/assets/projects/gemini-clone.jpg",
-  tags: [
-    {
-      id: 1,
-      name: "React",
-      path: "/assets/logos/react.svg",
-    },
-    {
-      id: 2,
-      name: "JavaScript",
-      path: "/assets/logos/javascript.svg",
-    },
-    {
-      id: 3,
-      name: "Tailwind CSS",
-      path: "/assets/logos/tailwind.svg",
-    },
-    {
-      id: 4,
-      name: "Gemini API",
-      path: "/assets/logos/api.svg",
-    },
-  ],
-},
+    id: 4,
+    title: "Gemini Clone",
+    description:
+      "A Gemini-powered AI web app that uses the Gemini API to fetch and display intelligent responses, built with React and styled using Tailwind CSS.",
+    subDescription: [
+      "Integrated Gemini API to fetch AI-generated responses and handle user prompts.",
+      "Built a clean and responsive UI using React components and Tailwind CSS.",
+      "Implemented real-time input handling and smooth output rendering.",
+      "Designed for extensibility with support for multiple conversation threads.",
+    ],
+    href: "",
+    logo: "",
+    image: "/assets/projects/gemini-clone.jpg",
+    tags: [
+      {
+        id: 1,
+        name: "React",
+        path: "/assets/logos/react.svg",
+      },
+      {
+        id: 2,
+        name: "JavaScript",
+        path: "/assets/logos/javascript.svg",
+      },
+      {
+        id: 3,
+        name: "Tailwind CSS",
+        path: "/assets/logos/tailwind.svg",
+      },
+      {
+        id: 4,
+        name: "Gemini API",
+        path: "/assets/logos/api.svg",
+      },
+    ],
+  },
   {
-  id: 5,
-  title: "usePopcorn",
-  description:
-    "A modern movie browsing app that fetches and displays movie data with ratings using a public API.",
-  subDescription: [
-    "Built with React.js using functional components and hooks.",
-    "Integrated OMDb API to search and fetch movie details and ratings.",
-    "Implemented a responsive UI with dark/light theme toggling.",
-    "Allowed users to rate movies and maintain a personal watchlist with local storage.",
-  ],
-  href: "",
-  logo: "",
-  image: "/assets/projects/usepopcorn.jpg",
-  tags: [
-    {
-      id: 1,
-      name: "React",
-      path: "/assets/logos/react.svg",
-    },
-    {
-      id: 2,
-      name: "JavaScript",
-      path: "/assets/logos/javascript.svg",
-    },
-    {
-      id: 3,
-      name: "OMDb API",
-      path: "/assets/logos/api.svg",
-    },
-    {
-      id: 4,
-      name: "Tailwind CSS",
-      path: "/assets/logos/tailwind.svg",
-    },
-  ],
-},
-  
+    id: 5,
+    title: "usePopcorn",
+    description:
+      "A modern movie browsing app that fetches and displays movie data with ratings using a public API.",
+    subDescription: [
+      "Built with React.js using functional components and hooks.",
+      "Integrated OMDb API to search and fetch movie details and ratings.",
+      "Implemented a responsive UI with dark/light theme toggling.",
+      "Allowed users to rate movies and maintain a personal watchlist with local storage.",
+    ],
+    href: "",
+    logo: "",
+    image: "/assets/projects/usepopcorn.jpg",
+    tags: [
+      {
+        id: 1,
+        name: "React",
+        path: "/assets/logos/react.svg",
+      },
+      {
+        id: 2,
+        name: "JavaScript",
+        path: "/assets/logos/javascript.svg",
+      },
+      {
+        id: 3,
+        name: "OMDb API",
+        path: "/assets/logos/api.svg",
+      },
+      {
+        id: 4,
+        name: "Tailwind CSS",
+        path: "/assets/logos/tailwind.svg",
+      },
+    ],
+  },
 ];
 
 export const mySocials = [
   {
     name: "WhatsApp",
-    href: "",
+    href: "", // Optional: Add your WhatsApp link if public
     icon: "/assets/socials/whatsApp.svg",
   },
   {
     name: "Linkedin",
-    href: "https://www.linkedin.com/in/ali-sanati/",
+    href: "https://www.linkedin.com/in/asif-mulla-518a1925b/",
     icon: "/assets/socials/linkedIn.svg",
   },
   {
     name: "Instagram",
-    href: "https://www.instagram.com/ali.sanatidev/reels/",
+    href: "", // Optional: Add if you want to share Instagram
     icon: "/assets/socials/instagram.svg",
+  },
+  {
+    name: "GitHub",
+    href: "https://github.com/AsifMulla15",
+    icon: "/assets/socials/github.svg",
+  },
+  {
+    name: "LeetCode",
+    href: "https://leetcode.com/u/asifmulla15/",
+    icon: "/assets/socials/leetcode.svg",
+  },
+  {
+    name: "Portfolio",
+    href: "https://portfolio-psi-gilt-50.vercel.app/",
+    icon: "/assets/socials/portfolio.svg",
   },
 ];
 
 export const experiences = [
   {
-    title: "Software Developer",
-    job: "Security & Defense Projects",
-    date: "2021-2023",
+    title: "Frontend Developer Intern",
+    job: "Bluestock Fintech",
+    date: "2 Months",
     contents: [
-      "Enhanced application security and developed new features, adhering to standards set by the Passive Defense Organization and National Cyberspace Center.",
-      "Designed and implemented intuitive map interfaces using MapsUI, enhancing user experience and enabling seamless interactive map integration.",
-      "Developed applications for industrial automation, leveraging C++ and the Fatek API for PLC communication.",
-      "Enhanced responsiveness and usability of applications using Windows Forms and WPF frameworks.",
-      "Executed XML to SVG conversions using X-DOM, ensuring dynamic and efficient data visualization.",
-    ],
-  },
-  {
-    title: "Back-End Developer",
-    job: "Car Manufacture",
-    date: "2023-2024",
-    contents: [
-      "Engineered systems for large-scale data ingestion and analysis, ensuring efficient data processing and storage.",
-      "Developed back-end systems enabling vehicle-to-cloud communication for telemetry, diagnostics, and remote control:",
-      "✅ Implemented secure APIs, following ISO 26262 automotive safety standards.",
-      "✅ Ensured data privacy for customers and partners through industry-compliant protocols.",
-      "✅ Delivered remote features like over-the-air updates, real-time tracking, and remote start capabilities.",
-    ],
-  },
-  {
-    title: "Freelance Developer",
-    job: "Self-Employed",
-    date: "2025-Present",
-    contents: [
-      "Created a personal portfolio using Three.js, React, Vite, and WebAPI to showcase technical expertise.",
-      "Continuously enhancing technical skills and expanding expertise in modern web development and back-end technologies.",
+      "Developed and implemented interactive user interfaces for the company's stock dashboards using React.js, ensuring a seamless and responsive user experience.",
+      "Actively contributed to debugging and maintaining the existing codebase, enhancing overall application stability and reliability.",
+      "Optimized components to improve performance and promote code reusability, resulting in a more efficient and maintainable frontend architecture.",
     ],
   },
 ];
+
 export const reviews = [
   {
     name: "Jack",
