@@ -9,7 +9,7 @@ export const myProjects = [
     ],
     href: "https://job-portal-full-stack-client-olive.vercel.app",
     logo: "",
-    image: "/assets/projects/accessories.jpg",
+    image: "/assets/projects/job-portol.png",
     tags: [
       {
         id: 1,
@@ -58,7 +58,7 @@ export const myProjects = [
     ],
     href: "https://chat-app-1-beta.vercel.app",
     logo: "",
-    image: "/assets/projects/auth-system.jpg",
+    image: "/assets/projects/chatapp.png",
     tags: [
       {
         id: 1,
@@ -106,7 +106,7 @@ export const myProjects = [
     ],
     href: "https://lms-full-stack-alpha-rose.vercel.app/",
     logo: "",
-    image: "/assets/projects/blazor-app.jpg",
+    image: "/assets/projects/edemy.png",
     tags: [
       {
         id: 1,
@@ -153,7 +153,7 @@ export const myProjects = [
     ],
     href: "",
     logo: "",
-    image: "/assets/projects/gemini-clone.jpg",
+    image: "/assets/projects/gemini.png",
     tags: [
       {
         id: 1,
@@ -190,7 +190,7 @@ export const myProjects = [
     ],
     href: "",
     logo: "",
-    image: "/assets/projects/usepopcorn.jpg",
+    image: "/assets/projects/usepopcorn.png",
     tags: [
       {
         id: 1,
