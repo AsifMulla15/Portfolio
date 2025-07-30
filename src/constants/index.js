@@ -225,12 +225,12 @@ export const mySocials = [
   {
     name: "Linkedin",
     href: "https://www.linkedin.com/in/asif-mulla-518a1925b/",
-    icon: "/assets/socials/linkedIn.svg",
+    icon: "/assets/socials/linkedIn.png",
   },
   {
     name: "Instagram",
     href: "", // Optional: Add if you want to share Instagram
-    icon: "/assets/socials/instagram.svg",
+    icon: "/assets/socials/instagram.png",
   },
   {
     name: "GitHub",
@@ -240,7 +240,7 @@ export const mySocials = [
   {
     name: "LeetCode",
     href: "https://leetcode.com/u/asifmulla15/",
-    icon: "/assets/socials/leetcode.svg",
+    icon: "/assets/socials/leetcode.png",
   },
   {
     name: "Portfolio",
