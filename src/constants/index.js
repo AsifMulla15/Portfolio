@@ -225,12 +225,12 @@ export const mySocials = [
   {
     name: "Linkedin",
     href: "https://www.linkedin.com/in/asif-mulla-518a1925b/",
-    icon: "/assets/socials/linkedIn.png",
+    icon: "/assets/socials/linkedIn.svg",
   },
   {
     name: "Instagram",
     href: "", // Optional: Add if you want to share Instagram
-    icon: "/assets/socials/instagram.png",
+    icon: "/assets/socials/instagram.svg",
   },
   {
     name: "GitHub",
