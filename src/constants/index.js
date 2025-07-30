@@ -245,7 +245,7 @@ export const mySocials = [
   {
     name: "Portfolio",
     href: "https://portfolio-psi-gilt-50.vercel.app/",
-    icon: "/assets/socials/portfolio.svg",
+    icon: "/assets/socials/portfolio.png",
   },
 ];
 
