@@ -104,8 +104,6 @@ export const myProjects = [
 subDescription: [
   "Developed a full-stack Learning Management System (LMS) platform that enables educators to create and publish courses, while allowing students to enroll, view course content, and make secure payments online.",
   "Implemented authentication and user role management using Clerk, ensuring separate access for instructors and learners.",
-  "Integrated Stripe payment gateway to handle real-time payments and manage educator earnings.",
-  "Built a dynamic and responsive UI using React.js, with backend APIs powered by Node.js and Express.js.",
   "MongoDB is used for storing user profiles, course data, and payment history.",
   "The platform is deployed using Vercel and is accessible across devices.",
   "Tech Stack: MongoDB, Express.js, React.js, Node.js, Clerk, Stripe",
