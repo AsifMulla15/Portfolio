@@ -101,9 +101,15 @@ export const myProjects = [
     id: 3,
     title: "LMS Study Website (Edemy)",
     description: "A Full Stack Learning Management System and e-Learning platform.",
-    subDescription: [
-      "A full-stack web application that connects job seekers with recruiters. Job seekers can search and apply for job listings, manage profiles, and upload resumes. Recruiters can post job openings, manage job posts, view applicant details, and accept/reject applications. Includes real-time performance monitoring and error tracking for better reliability.",
-    ],
+subDescription: [
+  "Developed a full-stack Learning Management System (LMS) platform that enables educators to create and publish courses, while allowing students to enroll, view course content, and make secure payments online.",
+  "Implemented authentication and user role management using Clerk, ensuring separate access for instructors and learners.",
+  "Integrated Stripe payment gateway to handle real-time payments and manage educator earnings.",
+  "Built a dynamic and responsive UI using React.js, with backend APIs powered by Node.js and Express.js.",
+  "MongoDB is used for storing user profiles, course data, and payment history.",
+  "The platform is deployed using Vercel and is accessible across devices.",
+  "Tech Stack: MongoDB, Express.js, React.js, Node.js, Clerk, Stripe",
+],
     href: "https://lms-full-stack-alpha-rose.vercel.app/",
     logo: "",
     image: "/assets/projects/edemy.png",
@@ -151,7 +157,7 @@ export const myProjects = [
       "Implemented real-time input handling and smooth output rendering.",
       "Designed for extensibility with support for multiple conversation threads.",
     ],
-    href: "",
+    href: "https://github.com/AsifMulla15/Gimini-Clone",
     logo: "",
     image: "/assets/projects/gemini.png",
     tags: [
@@ -188,7 +194,7 @@ export const myProjects = [
       "Implemented a responsive UI with dark/light theme toggling.",
       "Allowed users to rate movies and maintain a personal watchlist with local storage.",
     ],
-    href: "",
+    href: "https://github.com/AsifMulla15/usePopcorn",
     logo: "",
     image: "/assets/projects/usepopcorn.png",
     tags: [
